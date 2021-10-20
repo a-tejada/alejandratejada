@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" charset="gtf-8">
+		<link rel="stylesheet" type="text/css" href="css/project.css" media="screen"/>
+
+		<title>Report Builder</title>
+		<link rel="shortcut icon" type="image/jpg" href="assets/Favicon.png"/>
+	</head>
+
+	<!-- Load in Javascript and JQuery -->
+	<script src="js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		$(function() {
+			$("#header").load("header.html");
+		});
+
+		$(function() {
+			$("#footer").load("footer.html");
+		});
+	</script>
+	
+	<body>
+		<div id="header"></div>
+		<!------------------------------------------------------------------------------->
+		<br>
+		<div class="row">
+			<div class="column-margin"></div>
+			<div class="one-column-content">
+				<div>
+					<h1>Collaborative Testing Approach</h1>
+					<h3>At Exago Inc</h3>
+					<br/>
+					<br/>
+					<p>
+						Manual testing is the process of manually testing software for defects. It requires a tester to play the role of an end user whereby they use most of the application's features to ensure correct behavior.
+						<br/>
+						<br/>
+						Manually executing test cases is multiple days' worth of work; my job was to find a way to streamline this process to allow for the quality assurance to take a more analytical approach to testing.
+					</p>
+					<br/>
+					<br/>
+					<h2>Key Learnings</h2>
+					<ul>
+						<li>Working with a complex projects under tight timelines</li>
+						<li>Test Case development</li> <!--and buyer's journey mapping-->
+						<li>Test Case tracking systems</li>
+						<li>Developing education resources</li>
+						<li>Effective communication across multiple departments</li>
+					</ul>
+					<br/>
+					<h2>Tools</h2>
+					<br/>
+					<div class="row">
+						<div style="width: 26px">
+							<img src="assets/GoogleSuite.PNG" style="width: 100%;">
+						</div>
+						<div style="margin-left: 8px;"><p>Google Drive<br/>Collaborative document sharing system</p></div>
+						
+						<div style="width: 26px">
+							<img src="assets/Jira.PNG" style="width: 100%;">
+						</div>
+						<div style="margin-left: 8px;"><p>Jira<br/>Bug tracking system</p></div>
+
+						<div style="width: 26px">
+							<img src="assets/Monday.PNG" style="width: 100%;">
+						</div>
+						<div style="margin-left: 8px;"><p>Monday<br/>Task management tool</p></div>
+						<br/>
+					</div>
+				</div>
+			</div>
+			<div class="column-margin"></div>
+		</div>
+		<!------------------------------------------------------------------------------->
+
+		<div class="row">
+			<div class="column-margin"></div>
+			<div class="one-column-content">
+				<h2>Problem Statement</h2>
+				<br/>
+				<p>
+					<span class="noteable"> Too many test cases not enough testers. </span> 
+					This is the issue we were facing in the quality assurance department when the company decided to overhaul three of our designers and targerted it to the same major release. This did not allow us enough time with the development branch to test due to tight timelines. 
+				</p>
+			</div>
+			<div class="column-margin"></div>
+		</div>
+
+		<!------------------------------------------------------------------------------->
+
+		<div class="row">
+			<div class="column-margin"></div>
+			<div class="one-column-content">
+				<h2>Proposed Solution</h2>
+				<br/>
+				<p>
+					The solution I proposed was to get the entire company involved in testing.  
+					<br/>
+					<br/>
+					<span class="noteable">The immediate issues we faced</span>
+					Not everyone in the company was a technical user and had the capability of setting up a robust testing environment.
+					<br/>
+					Wants and Needs:
+				</p>
+				<ul>
+					<li>Need to build an enviroment where non technical users could just access the application and not install it locally</li>
+					<li>Needs to educate users on the new product feature for them to be able to test it</li>
+					<li>Want to get as much value out of the testers as possible</li>
+				</ul>
+				<p>
+					Frustrations:
+				</p>
+				<ul>
+					<li>Having to put together these resources and making them easily accessible </li>
+					<li>Non technical users struggling with the high learning curve</li>
+					<li>Getting users up to speed takes a long time</li>
+				</ul>
+				<br/>
+			</div>
+			<div class="column-margin"></div>
+		</div>
+		<!------------------------------------------------------------------------------->
+
+		<div class="row">
+			<div class="column-margin"></div>
+			<div class="one-column-content">
+				<h2>Results</h2>
+				<br/>
+				<p>
+					<span class="noteable">More people testing = more bugs found (shocking right)</span>
+					<br/>
+					Putting in the front end work to get people started and then learning how to streamline the process was key to our success. The chart below shows how implementing Testathons we increased our number of bugs found internally as opposed to in previous versions where more bugs affected clients. 
+				</p>
+				<br/>
+				<img src="assets/BugsFoundInVersions.png" style="width: 100%;">
+				<br/>
+				<p>
+					<span class="noteable"> The report below shows how many bugs were found in each testathon categorized by severity.
+				</p>
+				<br/>
+				<iframe src="assets/v2021.1 Testathon Results.pdf#toolbar=0&navpanes=0" width="100%" height="400px">
+				</iframe>
+			</div>
+			<div class="column-margin"></div>
+		</div>
+	
+		<!------------------------------------------------------------------------------->
+		<div class="row-section-break"></div>
+		<div id="footer"></div>
+	</body>
+</html>
